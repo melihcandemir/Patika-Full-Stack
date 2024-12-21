@@ -2,7 +2,7 @@
 
 ### Konsol ekranına 10 kere "Kendime inanıyorum, ben bu yazılım işini hallederim!" yazdırınız.
 ## Kod1:
-```bash
+```C#
 
 for(byte i = 0; i <= 10; i++)
 {
@@ -14,11 +14,12 @@ for(byte i = 0; i <= 10; i++)
 ## Output1:
 ![](img/code1.png)
 ---
+---
 
 
 ### 1 ile 20 arasındaki sayıları konsol ekranına yazdırınız.
 ## Kod2:
-```bash
+```C#
 
 for(byte i = 1; i <= 20; i++)
 {
@@ -30,11 +31,12 @@ for(byte i = 1; i <= 20; i++)
 ## Output2:
 ![](img/code2.png)
 ---
+---
 
 
 ### 1 ile 20 arasındaki çift sayıları konsol ekranına yazdırınız.
 ## Kod3:
-```bash
+```C#
 
 for(byte i = 1; i <= 20; i++)
 {
@@ -49,11 +51,12 @@ for(byte i = 1; i <= 20; i++)
 ## Output3:
 ![](img/code3.png)
 ---
+---
 
 
 ### 50 ile 150 arasındaki sayıların toplamını ekrana yazdırınız.
 ## Kod4:
-```bash
+```C#
 
 int toplam = 0;
 for(int i = 50; i <= 150; i++)
@@ -67,12 +70,13 @@ Console.WriteLine(toplam);
 ## Output4:
 ![](img/code4.png)
 ---
+---
 
 
 
 ### 1 ile 120 arasındaki tek ve çift sayıların toplamlarını ayrı ayrı ekrana yazdırınız.
 ## Kod5:
-```bash
+```C#
 
 int toplam_1 = 0; 
 int toplam_2 = 0;
