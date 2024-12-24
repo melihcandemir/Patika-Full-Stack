@@ -3,3 +3,5 @@
 ```sh
 Patika+ dersleri içerir
 ```
+
+- Uygulamar .net 9 sürümü kullanmakta
