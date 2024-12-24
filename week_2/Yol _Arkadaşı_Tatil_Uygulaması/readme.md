@@ -1,13 +1,13 @@
 # Pratik - Yol Arkadaşı : Tatil uygulaması
 Bu pratikte bir yardımcı seyehat uygulaması ile kullanıcılarımızın planlayacakları 3 günlük bir tatilde harcayacakları yaklaşık tutarı hesaplamalarına yardımcı oluyoruz.
 
-## 3 adet lokasyonumuz var:
+## Uygulama özeti:
+Yazdığım uygulama genel olarak do-while kullanılarak oluşturuldu. Kodların tamamı Program.cs dosyasında.
 
+## 3 adet lokasyonumuz var:
 - Bodrum (Paket başlangıç fiyatı 4000 TL)
 - Marmaris (Paket başlangıç fiyatı 3000 TL)
 - Antalya (Paket başlangıç fiyatı 5000 TL)
-## Uygulama özeti:
-Yazdığım uygulama genel olarak do-while kullanılarak oluşturuldu. Kodların tamamı Program.cs dosyasında.
 
 ## Kullanıcıya gitmek istediği lokasyonu soruyoruz:
 ```C#
