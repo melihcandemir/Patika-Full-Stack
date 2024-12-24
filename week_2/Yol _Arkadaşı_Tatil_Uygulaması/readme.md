@@ -7,7 +7,7 @@ Bu pratikte bir yardımcı seyehat uygulaması ile kullanıcılarımızın planl
 - Marmaris (Paket başlangıç fiyatı 3000 TL)
 - Antalya (Paket başlangıç fiyatı 5000 TL)
 ## Uygulama özeti:
-Yazdığım uygulama genel olarak do-while kullanılarak oluşturuldu.
+Yazdığım uygulama genel olarak do-while kullanılarak oluşturuldu. Kodların tamamı Program.cs dosyasında.
 
 ## Kullanıcıya gitmek istediği lokasyonu soruyoruz:
 ```C#
