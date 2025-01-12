@@ -1,5 +1,5 @@
 # Constructor
-Bu dersde Bebek() sınıfı tanımlamammız isteniyor. Daha sonrq bu sınıf içerisinde 2 adet constructor oluştururlarak çağrılmamız isteniyor.
+Bu dersde Bebek() sınıfı tanımlamammız isteniyor. Daha sonra bu sınıf içerisinde 2 adet constructor oluştururlarak çağrılmamız isteniyor.
 
 
 ## Bebek() Class:
