@@ -1,0 +1,134 @@
+
+- Abstraction : Soyutlama, nesnelerin veya sistemlerin karmaşıklığını azaltmak için sadece önemli detayların 
+dikkate alındığı bir süreç. Yani bir nesnenin veya sistemin özünü temsileden temel özelliklerini belirtmek.
+
+----------------------------------------------------------------------------------------------------
+
+- Class: Nesneleri tanımlamamız için kurduğumuz yapılar. (nesne oluşturma şablonu)
+
+----------------------------------------------------------------------------------------------------
+
+- Constructor (Yapıcı Metot) : Yani yapıcı metot, bir sınıfın nesnesi oluşturulduğunda otomatik ve zorunlu
+olarak çağrılan özel bir metottur. Nesnenin başlangıc durumunu ayarlamak için kullanılır.
+
+!! Nesneler oluşturulduğunda tek seferlik ve mutlaka tetiklenir. Her class da mutlaka bulunur.
+
+----------------------------------------------------------------------------------------------------
+
+- Encapsulation (Kapsülleme) :  Nesne yönelimli programlamanın temel prensiplerinden biridir. Kapsülleme,
+bir nesnenin iç durumunu (verilerini) dışarıdan gizleyerek, yalnızca belirli bir arayüz (metotlar) üzerinden 
+erişilmesini sağlar. Bu sayade verilerin güvenliğini artırır ve kodun bakımını kolaylaştırır.
+
+
+----------------------------------------------------------------------------------------------------
+
+- Interface : Yani ara yüz, bir sınıfın sahip olması gereken metotları, özellikleri ve olayları
+tanımlayan bir şablon. Ancak ara yüzeler herhangi bir uygulama (yani metotların gövdesi) içermez.
+Ara yüzler genellikle bir sınıfın ya da yapıların uygulaması gereken işlevleri tanımlamak için kullanılır.
+Abstraction altında bulunur.
+
+----------------------------------------------------------------------------------------------------
+
+- Inheritance : Miras, bir sınıfın başka bir sınıftan özelliklerini (properties) ve metotlar (methods) devralmasıdır.
+
+----------------------------------------------------------------------------------------------------
+
+- Nesne yönelimli programlama : OOP (Object oriented programing) gerçek dünya varlıklarını ve ilişkilerini 
+temsil eden nesneler etrafında yapılandırımıştır. Yazılımların daha esnek, modüler ve sürdürüle bilir bir 
+şeklde oluşturulmasını sağlar.
+
+ Temel amacı, yazılım geliştirme sürecinde karmaşıklığı yönetmek, kodu daha modüler hale getirmek ve yeniden 
+kullanılabilirliği artırmaktır.
+
+----------------------------------------------------------------------------------------------------
+
+- Polymorphism (Çok Biçimlilik) : Metotları ve türetilmiş sınıfları yeniden tanımlama yeteneğidir. 
+metot overloading - metot overriding (ezmek) olmak üzere 2 farklı şekilde yapılabilir.
+Aşırı yükleme olarak geçer.
+
+----------------------------------------------------------------------------------------------------
+
+- Public : Üyeye her yerden erişilebilir.
+
+- Private: Üyeye yalnızca tanımlandığı sınıf içinden erişilebilir.
+
+- Protected: Üyeye tanımlandığı sınıf ve ondan türetilen sınıflar içinden erişilebilir.
+
+- Internal: Üyeye aynı derleme (assembly) içindeki kodlardan erişilebilir.
+
+- Protected internal: Üyeye aynı derleme içindeki kodlardan veya başka bir derlemedeki türetilmiş sınıflardan erişilebilir.
+
+----------------------------------------------------------------------------------------------------
+
+- Static : static anahtar kelimesi, bir sınıfın, değişkenin, metodun veya olayın sınıfın bir örneğine (nesnesine) 
+bağlı olmadığını, sınıfın kendisine ait olduğunu belirtir. Başka bir deyişle, static olarak tanımlanan üyelere 
+erişmek için sınıfın bir nesnesini oluşturmanıza gerek yoktur.
+
+----------------------------------------------------------------------------------------------------
+
+Veri Tipleri (Data Types):
+
+int: 32 bit tamsayı.
+long: 64 bit tamsayı.
+short: 16 bit tamsayı.
+byte: 8 bit işaretsiz tamsayı.
+float: Tek duyarlıklı kayan noktalı sayı.
+double: Çift duyarlıklı kayan noktalı sayı.
+decimal: Ondalık sayı. Finansal hesaplamalar için uygundur.
+char: Tek bir Unicode karakteri.
+string: Metin dizisi.
+bool: true veya false değerlerini alan mantıksal değişken.
+object: Tüm diğer tiplerin temel sınıfı.
+void: Metodun herhangi bir değer döndürmediğini belirtir.
+
+Kontrol Akışı (Control Flow):
+
+if: Koşullu ifade.
+else: if koşulu sağlanmadığında çalışacak kod bloğu.
+for: Belirli sayıda tekrar için döngü.
+foreach: Bir koleksiyon (dizi, liste vb.) üzerinde iterasyon yapmak için döngü.
+while: Koşul sağlandığı sürece tekrarlayan döngü.
+do: Koşul en sonda kontrol edilen döngü.
+switch: Birden çok koşul arasından seçim yapmak için.
+case: switch ifadesi içinde bir koşul.
+break: Döngüden veya switch ifadesinden çıkmak için.
+continue: Döngünün bir sonraki yinelemesine geçmek için.
+return: Bir metottan değer döndürmek veya metottan çıkmak için.
+
+Nesne Yönelimli Programlama (Object-Oriented Programming):
+
+class: Bir sınıf tanımlamak için.
+interface: Bir arayüz tanımlamak için.
+struct: Bir yapı (structure) tanımlamak için.
+enum: Bir sabit listesi tanımlamak için.
+new: Bir nesne oluşturmak için.
+this: Sınıfın geçerli örneğine referans.
+base: Temel sınıfın üyelerine erişmek için.
+virtual: Bir metodu türetilmiş sınıflarda geçersiz kılınabilir (override) hale getirmek için.
+override: Temel sınıftaki bir sanal metodu geçersiz kılmak için.
+abstract: Soyut bir sınıf veya metot tanımlamak için.
+sealed: Bir sınıfın kalıtılmasını veya bir metodun geçersiz kılınmasını engellemek için.
+
+İstisna Yönetimi (Exception Handling):
+
+try: İstisna oluşturabilecek kod bloğu.
+catch: Bir istisna yakalamak ve işlemek için.
+finally: try bloğundan sonra her zaman çalışacak kod bloğu (istisna oluşsa da oluşmasa da).
+throw: Bir istisna oluşturmak için.
+
+Diğer Anahtar Kelimeler:
+
+using: Ad alanlarını içeri aktarmak veya kaynakları otomatik olarak serbest bırakmak için.
+namespace: Bir ad alanı tanımlamak için.
+const: Bir sabit tanımlamak için.
+readonly: Yalnızca oluşturucu içinde veya tanımlandığı yerde atanabilen bir alan tanımlamak için.
+typeof: Bir tipin Type nesnesini almak için.
+sizeof: Bir tipin boyutunu bayt cinsinden almak için.
+checked: Aritmetik taşmayı kontrol etmek için.
+unchecked: Aritmetik taşmayı kontrol etmemek için.
+unsafe: Güvenli olmayan kod bloklarını işaretlemek için (örneğin, işaretçilerle çalışırken).
+fixed: Garbage collector'ın bir nesneyi hareket ettirmesini engellemek için (özellikle işaretçilerle çalışırken).
+params: Bir metoda değişken sayıda parametre geçirmek için.
+ref: Bir metot parametresini referans olarak geçirmek için (metot parametrenin değerini değiştirebilir).
+out: Bir metottan değer döndürmek için (metot parametreye bir değer atamalıdır).
+in: Sadece okunabilir referans parametresi tanımlamak için (C# 7.2 ve sonrası).
