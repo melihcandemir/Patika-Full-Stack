@@ -36,7 +36,9 @@ newNumbers[newNumbers.Length - 1] = newNumber; // değer eklendi
 ## 4- Bu diziyi büyükten küçüğe ekrana yazdırınız.
 ```C#
 // Diziyi alfabetik veya sayısal olarak küçükten büyüğe sıralar. yapay zekadan yardım aldım
-Array.Sort(newNumbers); 
+Array.Sort(newNumbers);
+// sıralamayı tam tersi çevirir
+Array.Reverse(newNumbers);
 
 foreach (int item in newNumbers)
 {
