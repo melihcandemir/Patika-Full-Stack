@@ -22,6 +22,11 @@ erişilmesini sağlar. Bu sayade verilerin güvenliğini artırır ve kodun bak�
 
 ----------------------------------------------------------------------------------------------------
 
+- Generic : verilen değişken 
+
+
+----------------------------------------------------------------------------------------------------
+
 - Interface : Yani ara yüz, bir sınıfın sahip olması gereken metotları, özellikleri ve olayları
 tanımlayan bir şablon. Ancak ara yüzeler herhangi bir uygulama (yani metotların gövdesi) içermez.
 Ara yüzler genellikle bir sınıfın ya da yapıların uygulaması gereken işlevleri tanımlamak için kullanılır.
