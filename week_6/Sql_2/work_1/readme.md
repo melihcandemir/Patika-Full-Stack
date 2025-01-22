@@ -26,7 +26,7 @@ Bu linke tıklayarak dvdrental örnek veri tabanının 2. seneryoya karşılığ
 ## 3- film tablosunda bulunan tüm sütunlardaki verileri rental_rate 0.99 VE replacement_cost 12.99 VEYA 28.99 olma koşullarıyla sıralıyoruz.
 ```sql
 SELECT * FROM film
-WHERE length > 60 AND length < 75;
+WHERE rental_rate = 0.99 AND replacement_cost = 12.99 OR replacement_cost = 28.99;
 ```
 Bu linke tıklayarak dvdrental örnek veri tabanının 3. seneryoya karşılığını alabilirsiniz : 
 [Output dosyasını görüntüle](output_veri/data_3.csv)
@@ -48,7 +48,7 @@ Bu linke tıklayarak dvdrental örnek veri tabanının 4. seneryoya karşılığ
 
 
 
-## 5- film tablosundaki uzunluğu(length) 50 ten büyük OLMAYIP aynı zamanda rental_rate değeri 2.99 veya 4.99 OLMAYAN verileri sıralıyoruz.
+## 5- film tablosundaki uzunluğu(length) 50 den büyük OLMAYIP aynı zamanda rental_rate değeri 2.99 veya 4.99 OLMAYAN verileri sıralıyoruz.
 ```sql
 SELECT * FROM film
 WHERE NOT length > 50 AND NOT (rental_rate = 2.99 OR rental_rate = 4.99);
