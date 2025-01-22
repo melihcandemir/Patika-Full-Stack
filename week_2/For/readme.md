@@ -1,4 +1,4 @@
-# For dögüsü
+# For döngüsü
 
 ### Konsol ekranına 10 kere "Kendime inanıyorum, ben bu yazılım işini hallederim!" yazdırınız.
 ## Kod1:
