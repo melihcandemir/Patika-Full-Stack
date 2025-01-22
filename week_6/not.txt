@@ -1,1 +1,5 @@
 responsive : bütün ekranlara uygun tasarımlar html
+
+Wildcard : % karakteri sıfır, bir veya daha fazla karakteri temsil eder ve Wildcard olarak isimlendirilir.
+
+tek karakter içi yer tutucu : _  örnek: M_lih
