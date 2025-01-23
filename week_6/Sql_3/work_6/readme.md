@@ -41,5 +41,5 @@ Cevap: 21
 SELECT COUNT(DISTINCT(replacement_cost)) FROM film
 WHERE length > 150;
 ```
-Bu linke tıklayarak dvdrental örnek veri tabanının 40. seneryoya karşılığını alabilirsiniz : 
+Bu linke tıklayarak dvdrental örnek veri tabanının 4. seneryoya karşılığını alabilirsiniz : 
 [Output dosyasını görüntüle](output_veri/data_4.csv)
