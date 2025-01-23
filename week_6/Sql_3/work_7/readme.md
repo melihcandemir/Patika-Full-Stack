@@ -41,7 +41,8 @@ Bu linke tıklayarak dvdrental örnek veri tabanının 3. seneryoya karşılığ
 ```sql
 SELECT country_id, COUNT(*) FROM city
 GROUP BY country_id
-ORDER BY country_id; -- country_id'ye göre küçükten büyüğe sıralandı
+ORDER BY COUNT(*) DESC  -- country_id'ye göre büyükten küçüğe sıralandı
+LIMIT 1; -- sadece en büyük yazıldı
 ```
 Bu linke tıklayarak dvdrental örnek veri tabanının 4. seneryoya karşılığını alabilirsiniz : 
 [Output dosyasını görüntüle](output_veri/data_4.csv)
