@@ -3,7 +3,7 @@ Rastgele 10 adet sayıdan oluşan bir liste oluşturuyoruz. Bu liste üzerinden 
 
 ```C#
 // Rastgele 10 adet sayıdan oluşan bir liste
-// Random ile de oluşturula bilir ancak outputlar birbiri ile ilişkili olsun diye sabit değerler girdim
+// Random ile de oluşturulabilir ancak outputlar birbiri ile ilişkili olsun diye sabit değerler girdim
 List<int> numbers_list = new List<int>() { 10, -11, 66, 2, -9, 100, 80, 3, -40, -3 };
 ```
 
