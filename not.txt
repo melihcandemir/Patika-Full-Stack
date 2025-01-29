@@ -138,3 +138,7 @@ ref: Bir metot parametresini referans olarak geçirmek için (metot parametrenin
 out: Bir metottan değer döndürmek için (metot parametreye bir değer atamalıdır).
 in: Sadece okunabilir referans parametresi tanımlamak için (C# 7.2 ve sonrası).
 
+
+Lambda :  C#'da lambda ifadeleri, özellikle fonksiyonel programlama tekniklerini destekleyen ve kodu daha kısa ve okunabilir hale getiren bir yapıdır.
+
+linq : 
