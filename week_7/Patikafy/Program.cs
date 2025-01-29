@@ -38,7 +38,7 @@ foreach (var s in salesplus)
 
 
 // 2000 yılı öncesi çıkış yapmış ve pop müzik yapan şarkıcılar. ( Çıkış yıllarına göre gruplayarak, alfabetik bir sıra ile yazdırınız.)
-var release_year_group = artists.Where(x => x.ReleaseYear < 2000 && x.Genre == "Pop").GroupBy(x => x.ReleaseYear).OrderBy(x => x.Key);
+var release_year_group = artists.Where(x => x.ReleaseYear < 2000 && x?.Genre?.Contains("Pop") == true).GroupBy(x => x.ReleaseYear).OrderBy(x => x.Key);
 
 Console.WriteLine($"2000 yılı öncesi çıkış yapmış ve pop müzik yapan şarkıcılar:");
 foreach (var group in release_year_group)

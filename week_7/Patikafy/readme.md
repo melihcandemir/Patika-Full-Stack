@@ -59,7 +59,7 @@ Albüm satışları 10 milyon'un üzerinde olan şarkıcılar:
 
 ## 3- 2000 yılı öncesi çıkış yapmış ve pop müzik yapan şarkıcılar. ( Çıkış yıllarına göre gruplayarak, alfabetik bir sıra ile yazdırınız.)
 ```C#
-var release_year_group = artists.Where(x => x.ReleaseYear < 2000 && x.Genre == "Pop").GroupBy(x => x.ReleaseYear).OrderBy(x => x.Key);
+var release_year_group = artists.Where(x => x.ReleaseYear < 2000 && x?.Genre?.Contains("Pop") == true).GroupBy(x => x.ReleaseYear).OrderBy(x => x.Key);
 
 Console.WriteLine($"2000 yılı öncesi çıkış yapmış ve pop müzik yapan şarkıcılar:");
 foreach (var group in release_year_group)
@@ -81,6 +81,10 @@ foreach (var group in release_year_group)
 -------
 Şarkıcı: Ajda Pekkan
 ***
+Çıkış yılı: 1971
+-------
+Şarkıcı: Sezen Aksu
+***
 Çıkış yılı: 1992
 -------
 Şarkıcı: Tarkan
@@ -90,6 +94,10 @@ foreach (var group in release_year_group)
 Şarkıcı: Sertab Erener
 ***
 Şarkıcı: Serdar Ortaç
+***
+Çıkış yılı: 1997
+-------
+Şarkıcı: Gülben Ergen
 ***
 Çıkış yılı: 1999
 -------
