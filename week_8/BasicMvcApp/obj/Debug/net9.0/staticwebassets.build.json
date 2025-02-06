@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "6i3ePnRZ4WWW5THDyE6YK6G0+V/xBwHn16VJUnWckBw=",
+  "Source": "BasicMvcApp",
+  "BasePath": "_content/BasicMvcApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
