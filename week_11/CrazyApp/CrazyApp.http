@@ -1,0 +1,6 @@
+@CrazyApp_HostAddress = http://localhost:5270
+
+GET {{CrazyApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
