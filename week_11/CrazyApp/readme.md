@@ -148,20 +148,11 @@ Crazy Musicians API, müzisyenler üzerinde temel CRUD (Create, Read, Update, De
 }
 ```
 
----
-
-## ✅ Validasyon Kuralları
-- **İsim**: Zorunlu, minimum 2 karakter, maksimum 50 karakter.
-- **Meslek (Job)**: Zorunlu, maksimum 30 karakter.
-- **Eğlenceli Özellik (FunFeature)**: Zorunlu, maksimum 100 karakter.
-
----
-
 ## 🛠 Gereksinimler & Kurulum
 1. **.NET SDK 7.0 veya daha yeni bir sürümünü yükleyin.**
 2. **Projeyi klonlayın:**
    ```sh
-   git clone https://github.com/your-repo/crazy-musicians.git
+   git clone https://github.com/melihcandemir/Patika-Full-Stack.git
    ```
 3. **Proje klasörüne gidin:**
    ```sh
@@ -169,7 +160,7 @@ Crazy Musicians API, müzisyenler üzerinde temel CRUD (Create, Read, Update, De
    ```
 4. **Uygulamayı çalıştırın:**
    ```sh
-   dotnet run
+   dotnet watch
    ```
 
 ---

@@ -92,7 +92,7 @@ namespace CrazyApp.Controllers
 
 
         [HttpGet("search")]
-        public IActionResult Searchd([FromQuery] string name)
+        public IActionResult Search([FromQuery] string name)
         {
             var results = _musicians.Where(m => m.Name.Contains(name, StringComparison.OrdinalIgnoreCase)).ToList();
 
