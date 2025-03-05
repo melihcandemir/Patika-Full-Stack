@@ -1,0 +1,6 @@
+@CodeFirsBasic_HostAddress = http://localhost:5008
+
+GET {{CodeFirsBasic_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
