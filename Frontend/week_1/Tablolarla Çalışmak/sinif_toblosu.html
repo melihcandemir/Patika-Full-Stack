@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sınıf Tablosu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Sınıf Tablosu</h1>
+
+    <table>
+        <thead>
+            <!-- sütun başlıklar -->
+            <tr>
+                <th>Öğrenci Numarası</th>
+                <th>Adı</th>
+                <th>Soyadı</th>
+                <th>Doğum Tarihi</th>
+                <th>Notu</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- öğrenciler -->
+            <tr>
+                <td>1001</td>
+                <td>Melih Can</td>
+                <td>Demir</td>
+                <td>14.07.2001</td>
+                <td>95</td>
+            </tr>
+            <tr>
+                <td>1002</td>
+                <td>Ayşe</td>
+                <td>Kaya</td>
+                <td>22.07.2004</td>
+                <td>92</td>
+            </tr>
+            <tr>
+                <td>1003</td>
+                <td>Mehmet</td>
+                <td>Demir</td>
+                <td>10.11.2005</td>
+                <td>78</td>
+            </tr>
+            <tr>
+                <td>1004</td>
+                <td>Fatma</td>
+                <td>Şahin</td>
+                <td>03.05.2004</td>
+                <td>88</td>
+            </tr>
+            <tr>
+                <td>1005</td>
+                <td>Zeynep</td>
+                <td>Arslan</td>
+                <td>29.09.2005</td>
+                <td>95</td>
+            </tr>
+            <!-- Yeni eklenen öğrenciler -->
+            <tr>
+                <td>1006</td>
+                <td>Can</td>
+                <td>Yıldız</td>
+                <td>14.02.2005</td>
+                <td>81</td>
+            </tr>
+            <tr>
+                <td>1007</td>
+                <td>Elif</td>
+                <td>Koç</td>
+                <td>08.12.2004</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>1008</td>
+                <td>Burak</td>
+                <td>Çelik</td>
+                <td>25.06.2005</td>
+                <td>76</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
