@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="#" method="post">
+        <!-- Ad ve soy ad alanları -->
+        <div>
+            <label for="ad">Ad:</label>
+            <input type="text" name="ad" id="ad">
+        </div>
+
+        <div>
+            <label for="soyad">Soyad:</label>
+            <input type="text" name="soyad" id="soyad">
+        </div>
+
+        <!-- e posta alanı -->
+        <div>
+            <label for="eposta">E-Posta:</label>
+            <input type="email" name="eposta" id="eposta">
+        </div>
+
+        <!-- parola alanı -->
+        <div>
+            <label for="parola">Parola:</label>
+            <input type="password" name="parola" id="parola">
+        </div>
+
+        <!-- çinsiyet seçimi radyoları -->
+        <div>
+            <label>Cinsiyet:</label>
+            <input type="radio" id="erkek" name="cinsiyet" value="erkek">
+            <label for="erkek">Erkek</label>
+
+            <input type="radio" id="kadin" name="cinsiyet" value="kadin">
+            <label for="kadin">Kadın</label>
+        </div>
+
+        <!-- Favori meyve seçimi (açılır liste) -->
+        <div>
+            <label for="meyve">Favori Meyveniz:</label>
+            <select id="meyve" name="meyve">
+                <option value="">Lütfen seçiniz...</option>
+                <option value="elma">Elma</option>
+                <option value="muz">Muz</option>
+                <option value="cilek">Çilek</option>
+                <option value="portakal">Portakal</option>
+                <option value="uzum">Üzüm</option>
+            </select>
+        </div>
+
+        <!-- Mesaj alanı (textarea) -->
+        <div>
+            <label for="mesaj">Mesajınız:</label>
+            <textarea id="mesaj" name="mesaj" rows="4" cols="50"></textarea>
+        </div>
+
+        <!-- Gönder butonu -->
+        <div>
+            <input type="submit" value="Gönder">
+        </div>
+    </form>
+
+</body>
+
+</html>
