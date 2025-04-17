@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Sayfa</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --bg-color: #f8f9fa;
+            --text-color: #333;
+            --card-bg: #ffffff;
+        }
+
+        /* Base Styles */
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 2.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-content {
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0 0 1rem 0;
+            font-size: 2.8rem;
+            letter-spacing: 1px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            padding: 0.5rem 1rem;
+            display: inline-block;
+            transition: all 0.3s ease;
+            border-radius: 4px;
+        }
+
+        nav a:hover {
+            background-color: var(--secondary-color);
+            transform: translateY(-2px);
+        }
+
+        nav span {
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        /* Section Styles */
+        section {
+            margin-bottom: 2.5rem;
+            background: var(--card-bg);
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+        }
+
+        section:hover {
+            transform: translateY(-5px);
+        }
+
+        .content {
+            margin-top: 1rem;
+        }
+
+        /* List Styles */
+        ol {
+            list-style: none;
+            padding: 0;
+        }
+
+        .education-details p {
+            margin: 0.5rem 0;
+            padding-left: 1rem;
+            border-left: 3px solid var(--secondary-color);
+        }
+
+        /* List Counter Styles */
+        ol {
+            list-style: none;
+            padding: 0;
+            counter-reset: section;
+        }
+
+        ol>li>section>h2::before {
+            counter-increment: section;
+            content: counter(section) ". ";
+            color: var(--secondary-color);
+            font-weight: bold;
+            margin-right: 0.5rem;
+        }
+
+        /* Map Styles */
+        .map-container {
+            width: 100%;
+            height: 450px;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* Image Styles */
+        .image-container {
+            margin: 1.5rem 0;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.02);
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 1.5rem;
+            margin-top: 3rem;
+        }
+
+        .footer-content {
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 1rem;
+            }
+
+            section {
+                padding: 1.5rem;
+            }
+
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .map-container {
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Melih Can DEMİR</h1>
+            <nav>
+                <a href="https://github.com/melihcandemir">Github</a>
+                <span>|</span>
+                <a href="https://github.com/melihcandemir/Patika-Full-Stack">Eğitim Günlüğü</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <ol>
+                <li>
+                    <section class="about-section">
+                        <h2>Hakkımda</h2>
+                        <div class="content">
+                            <p>Kod öğrenme çalışmalarıma Patika+ FullStack Web Development ile devam ediyorum. Daha önce
+                                BTK
+                                Akademi'de C#, Python, Html, Css dersleri aldım. En büyük hedefim kendimi geliştirmek ve
+                                her geçen
+                                gün yazılım dünyasının daha da içine girmek.</p>
+                        </div>
+                    </section>
+                </li>
+
+                <li>
+                    <section class="education-section">
+                        <h2>Eğitim</h2>
+                        <div class="content">
+                            <ul>
+                                <li>
+                                    <h3>Patika+ 8-ay FullStack Web Development Bootcamp</h3>
+                                    <div class="education-details">
+                                        <p>- Patika ile derslere hızlı ve eğlenceli bir şekilde başladım.</p>
+                                        <p>- C#, Asp.Net Core Mvc, Asp.Net Core Api, Html, Css, Bootstrap ile projeler
+                                            geliştiriyorum.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </li>
+
+                <li>
+                    <section class="location-section">
+                        <h2>Nerdeyim :)</h2>
+                        <div class="map-container">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12767493.631127117!2d28.426933920806384!3d38.64170814153939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b0155c964f2671%3A0x40d9dbd42a625f2a!2zVMO8cmtpeWU!5e0!3m2!1str!2str!4v1744900925027!5m2!1str!2str"
+                                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </section>
+                </li>
+            </ol>
+
+            <section class="life-section">
+                <h3>Bu Hayatı Seviyorum...</h3>
+                <div class="image-container">
+                    <img src="img/Manzara.jpg" alt="Sevdiğim Hayat">
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            &copy; Haklar Melih Can DEMİR'e aittir
+        </div>
+    </footer>
+</body>
+
+</html>
