@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Seyahat Rehberi - İletişim</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff5ee;
+    }
+
+    nav {
+        background-color: #333;
+        padding: 15px;
+        border-radius: 5px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin: 0 15px;
+    }
+
+    nav ul li a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+
+    nav ul li a:hover {
+        color: #ffa07a;
+    }
+
+    h2,
+    h3 {
+        color: #2c3e50;
+        text-align: center;
+    }
+
+    ul {
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 600px;
+        margin: 20px auto;
+        list-style-type: none;
+    }
+
+    form {
+        background-color: white;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 500px;
+        margin: 20px auto;
+    }
+
+    form div {
+        margin: 15px 0;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        color: #333;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    button {
+        background-color: #333;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    button:hover {
+        background-color: #555;
+    }
+</style>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="hakkinda.html">Hakkında</a></li>
+            <li><a href="servisler.html">Servisler</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+        </ul>
+    </nav>
+
+    <h2>İletişim Bilgileri</h2>
+    <ul>
+        <li>Adres: Türkiye</li>
+        <li>Telefon: +090 132 132 1233</li>
+        <li>E-posta: melihcanndemir@gmail.com</li>
+    </ul>
+
+    <h3>İletişim Formu</h3>
+    <form action="#" method="POST">
+        <div>
+            <label for="ad">Adınız:</label>
+            <input type="text" id="ad" name="ad" required>
+        </div>
+        <div>
+            <label for="email">E-posta:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="mesaj">Mesajınız:</label>
+            <textarea id="mesaj" name="mesaj" required></textarea>
+        </div>
+        <button type="submit">Gönder</button>
+    </form>
+</body>
+
+</html>
