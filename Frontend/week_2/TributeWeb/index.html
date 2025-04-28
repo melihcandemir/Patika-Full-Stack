@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melih Can DEMİR</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 0.5rem 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 2rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 3rem 1rem;
+            background-color: #222;
+            color: white;
+        }
+
+        .quote {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto 1rem;
+            padding: 1rem;
+            border-left: 3px solid #ff4500;
+        }
+
+        .quote p {
+            text-transform: uppercase;
+        }
+
+        .author {
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        h2 {
+            border-bottom: 2px solid #ff4500;
+            padding-bottom: 0.5rem;
+            margin-top: 2rem;
+        }
+
+        .book-list {
+            list-style-type: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+
+        .book-list li {
+            background-color: white;
+            padding: 1rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .book-year {
+            color: #777;
+            font-size: 0.9rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #222;
+            color: white;
+            margin-top: 2rem;
+        }
+
+        .book-cover {
+            max-width: 100%;
+            height: auto;
+            margin-top: 2rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Melih Can DEMİR</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#info">Info</a>
+        <a href="#books">Books</a>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="quote">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius odio quae iure ex nihil? Ullam dignissimos
+                saepe animi architecto deserunt culpa quas totam obcaecati qui enim ipsum facilis, ex alias.
+            </p>
+            <div class="author">Melih Can DEMİR</div>
+        </div>
+    </section>
+
+    <div class="container">
+        <section id="info">
+            <h2>Early Career</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis natus dolorem ipsum aspernatur mollitia
+                quia vero iusto, accusamus rerum fugit nam maiores quaerat in impedit quod, illo eligendi cum
+                temporibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam unde distinctio quasi natus
+                vitae ab ipsa debitis laudantium vel quis aspernatur totam, doloribus sequi commodi voluptatem veritatis
+                at cumque dolores?</p>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique ad odio excepturi voluptatum
+                veritatis voluptas laboriosam quisquam sequi mollitia perferendis nemo, suscipit corporis totam hic!
+                Tempore vitae quod nisi iusto.
+                Inventore ipsam totam et possimus accusamus, repellat vel mollitia debitis quas minus, unde qui quisquam
+                vero facere quasi illo odit soluta, at provident voluptate porro corrupti ullam repudiandae magni.
+                Ipsam?</p>
+
+            <h2>Fight Club</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate magni hic voluptatem assumenda ipsam
+                dicta saepe pariatur aperiam nisi, quo dolorum inventore numquam, placeat doloribus eaque nemo repellat
+                rem. Ut!
+                Alias tempora libero quae corporis hic amet quo atque, ipsum aut officiis doloremque quas voluptatem
+                eveniet aspernatur maxime excepturi in deleniti, perferendis accusamus, necessitatibus quis repellat
+                totam ipsa! Odit, minima.
+                Modi, odit non similique illo ipsam accusantium quaerat iusto veniam dolor, asperiores soluta aperiam
+                atque. Atque beatae, nulla blanditiis suscipit debitis earum in maxime reprehenderit officiis veniam
+                accusantium! Sequi, hic?</p>
+
+            <img src="./writer.jpg" alt="Fight Club Book Cover" class="book-cover">
+        </section>
+
+        <section id="books">
+            <h2>Books</h2>
+            <ul class="book-list">
+                <li>Fight Club <span class="book-year">(1996)</span></li>
+                <li>Survivor <span class="book-year">(1999)</span></li>
+                <li>Invisible Monsters <span class="book-year">(1999)</span></li>
+                <li>Choke <span class="book-year">(2001)</span></li>
+                <li>Lullaby <span class="book-year">(2002)</span></li>
+                <li>Diary <span class="book-year">(2003)</span></li>
+                <li>Haunted <span class="book-year">(2005)</span></li>
+                <li>Rant <span class="book-year">(2007)</span></li>
+                <li>Snuff <span class="book-year">(2008)</span></li>
+                <li>Pygmy <span class="book-year">(2009)</span></li>
+                <li>Tell-All <span class="book-year">(2010)</span></li>
+                <li>Damned <span class="book-year">(2011)</span></li>
+                <li>Invisible Monsters Remix <span class="book-year">(2012)</span></li>
+                <li>Doomed <span class="book-year">(2013)</span></li>
+                <li>Beautiful You <span class="book-year">(2014)</span></li>
+                <li>Make Something Up <span class="book-year">(2015)</span></li>
+                <li>Fight Club 2 (graphic novel) <span class="book-year">(2015-16)</span></li>
+                <li>Fight Club 3 (graphic novel) <span class="book-year">(2020)</span></li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        Page Made For Melih Can DEMİR Assignment
+    </footer>
+</body>
+
+</html>
