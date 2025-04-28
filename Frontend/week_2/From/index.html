@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Survey Form</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #d94f7b, #a24695);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+
+        #survey-form {
+            background-color: #1f3557;
+            padding: 2rem;
+            border-radius: 15px;
+            width: 350px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        #title {
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
+
+        #description {
+            text-align: center;
+            font-size: 0.9rem;
+            margin-bottom: 1.5rem;
+        }
+
+        label {
+            margin-bottom: 0.3rem;
+            font-size: 0.9rem;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid #7fc8e8;
+            border-radius: 8px;
+            background-color: transparent;
+            color: #fff;
+            font-size: 0.9rem;
+        }
+
+        input::placeholder,
+        textarea::placeholder {
+            color: #b0c7d6;
+        }
+
+        input:focus,
+        select:focus,
+        textarea:focus {
+            border-color: #20c997;
+            outline: none;
+        }
+
+        .radio-group,
+        .checkbox-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        input[type="radio"],
+        input[type="checkbox"] {
+            margin-right: 0.5rem;
+            accent-color: #20c997;
+        }
+
+        textarea {
+            height: 80px;
+            resize: none;
+        }
+
+        #submit {
+            background-color: #20c997;
+            border: none;
+            padding: 0.7rem;
+            border-radius: 8px;
+            color: #fff;
+            font-weight: bold;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        #submit:hover {
+            background-color: #17a589;
+        }
+
+        select {
+            background-color: #1f3557;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <h1 id="title">Survey Form For CSS Practice</h1>
+        <p id="description">Please fill in the form below to sign up</p>
+
+        <form id="survey-form">
+
+            <label id="name-label" for="name">Full Name</label>
+            <input id="name" type="text" placeholder="Enter your full name" required>
+
+            <label id="email-label" for="email">Email</label>
+            <input id="email" type="email" placeholder="Enter your email address" required>
+
+            <label id="number-label" for="number">Age</label>
+            <input id="number" type="number" placeholder="Enter your age" min="10" max="100" required>
+
+            <label for="dropdown">Select Gender</label>
+            <select id="dropdown" required>
+                <option value="">Select an option</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+
+            <div class="radio-group">
+                <p>Where did you hear about us?</p>
+                <label><input type="radio" name="source" value="instagram" required>Instagram</label>
+                <label><input type="radio" name="source" value="linkedin" required>LinkedIn</label>
+            </div>
+
+            <div class="checkbox-group">
+                <label><input type="checkbox" value="terms" required>Terms Of Service</label>
+                <label><input type="checkbox" value="subscribe">Subscribe For News</label>
+            </div>
+
+            <label for="comments">Suggestions</label>
+            <textarea id="comments" placeholder="Enter your suggestions here..."></textarea>
+
+            <input id="submit" type="submit" value="Sign Up">
+        </form>
+    </div>
+
+</body>
+
+</html>
