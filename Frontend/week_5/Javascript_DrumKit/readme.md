@@ -77,3 +77,6 @@ Javascript_DrumKit/
 - Ses dosyaları `.wav` formatında
 - Animasyonlar CSS `@keyframes` ile oluşturuldu
 - TailwindCSS kullanılarak modern ve temiz bir tasarım elde edildi
+
+## Canlı Deneye bilirsiniz
+[Canlı Denemek İçin Tıkla](https://melihcandemir.github.io/Drum_Kit/)
