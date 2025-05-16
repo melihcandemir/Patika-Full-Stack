@@ -2,6 +2,9 @@
 
 Klavye veya fare ile çalabileceğiniz interaktif bir davul seti uygulaması. JavaScript, HTML ve TailwindCSS ile geliştirildi.
 
+## Canlı Deneyebilirsin
+[Canlı Denemek İçin Tıkla](https://melihcandemir.github.io/Drum_Kit/)
+
 ## ✨ Özellikler
 
 - 🎵 9 farklı davul sesi
@@ -77,6 +80,3 @@ Javascript_DrumKit/
 - Ses dosyaları `.wav` formatında
 - Animasyonlar CSS `@keyframes` ile oluşturuldu
 - TailwindCSS kullanılarak modern ve temiz bir tasarım elde edildi
-
-## Canlı Deneye bilirsiniz
-[Canlı Denemek İçin Tıkla](https://melihcandemir.github.io/Drum_Kit/)
