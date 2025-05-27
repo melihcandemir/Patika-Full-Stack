@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CrazyApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+444aabdd76dbb424aed6815c92d1531213a1ea5b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5521f9a6d49df6f5ca9bec09f9f5c80a5251c35e")]
 [assembly: System.Reflection.AssemblyProductAttribute("CrazyApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CrazyApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
