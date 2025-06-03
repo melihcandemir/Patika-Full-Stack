@@ -24,8 +24,8 @@ Merhaba! 👋 Ben **Melih Can DEMİR**, bu repo [Patika.dev](https://www.patika.
 | 2. Ay   | SQL, Kod Kalitesi                   | Görev Yönetim Sistemi              | ✅ Tamamlandı     |
 | 3. Ay   | Web API, .Net Core MVC, EF Core     | Kütüphane Yönetim Sistemi          | ✅ Tamamlandı     |
 | 4. Ay   | Mikroservisler ve Test              | E-Ticaret API Sistemi              | ✅ Tamamlandı     |
-| 5. Ay   | HTML, CSS, Bootstrap, Tailwind      | Kişisel Portföy Sayfası            | 🚀 Devam Ediyor   |
-| 6. Ay   | JavaScript ve DOM                   | Hava Durumu Uygulaması             | ⏳ Planlanıyor    |
+| 5. Ay   | HTML, CSS, Bootstrap, Tailwind      | Kişisel Portföy Sayfası            | ✅ Tamamlandı     |
+| 6. Ay   | JavaScript ve DOM                   | Hava Durumu Uygulaması             | 🚀 Devam Ediyor   |
 | 7. Ay   | React (Components, State, Hooks)    | To-Do List veya Blog Sitesi        | ⏳ Planlanıyor    |
 | 8. Ay   | Redux ve Deployment                 | Fullstack Uygulama                 | ⏳ Planlanıyor    |
 
@@ -35,7 +35,7 @@ Merhaba! 👋 Ben **Melih Can DEMİR**, bu repo [Patika.dev](https://www.patika.
 
 - Bu repoda her hafta tamamladığım ödev ve projeler ayrı klasörler altında yer alacak.
 - Patika+ dersleri içerir.
-- Uygulamar .net 9 sürümü kullanmakta.
+- Uygulamar .net 8 sürümü kullanmakta.
 
 ---
 
