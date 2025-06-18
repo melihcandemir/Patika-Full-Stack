@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Jwt")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b32c5532cb8565e9e96d11658ec6b94537de17a1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d376e7905b67a5b182766c98d8e631f4f1e208e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Jwt")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Jwt")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
