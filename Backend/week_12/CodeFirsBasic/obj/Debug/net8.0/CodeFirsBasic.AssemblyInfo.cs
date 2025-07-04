@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodeFirsBasic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7112f89fa925a4f61498c95a475b91b9ae938ac4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86f9d8bc332b2a81395d60ed8723c985073cad7d")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodeFirsBasic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodeFirsBasic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
