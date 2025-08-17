@@ -11,7 +11,7 @@ Merhaba! 👋 Ben **Melih Can DEMİR**, bu repo [Patika.dev](https://www.patika.
 **Eğitim Alanları:**
 
 - Backend: C#, .Net Core, Mikroservisler
-- Frontend: HTML, CSS, JavaScript, React, Redux
+- Frontend: HTML, CSS, JavaScript, React, TailwindCss
 - Veritabanı: SQL, EF Core
 - Diğer: Kod Kalitesi, Deployment, Test Otomasyonu
 
@@ -19,16 +19,16 @@ Merhaba! 👋 Ben **Melih Can DEMİR**, bu repo [Patika.dev](https://www.patika.
 
 ## 📚 Eğitim Programı ve Ödevler
 
-| **Ay** | **Konu ve Teknoloji**            | **Ödevler / Projeler**             | **Durum**       |
-| ------ | -------------------------------- | ---------------------------------- | --------------- |
-| 1. Ay  | Git, Temel C#, OOP               | Hesap Makinesi & Not Takip Sistemi | ✅ Tamamlandı   |
-| 2. Ay  | SQL, Kod Kalitesi                | Görev Yönetim Sistemi              | ✅ Tamamlandı   |
-| 3. Ay  | Web API, .Net Core MVC, EF Core  | Kütüphane Yönetim Sistemi          | ✅ Tamamlandı   |
-| 4. Ay  | Mikroservisler ve Test           | E-Ticaret API Sistemi              | ✅ Tamamlandı   |
-| 5. Ay  | HTML, CSS, Bootstrap, Tailwind   | Kişisel Portföy Sayfası            | ✅ Tamamlandı   |
-| 6. Ay  | JavaScript ve DOM                | Hava Durumu Uygulaması             | ✅ Tamamlandı   |
-| 7. Ay  | React (Components, State, Hooks) | To-Do List veya Blog Sitesi        | 🚀 Devam Ediyor |
-| 8. Ay  | Redux ve Deployment              | Fullstack Uygulama                 | ⏳ Planlanıyor  |
+| **Ay** | **Konu ve Teknoloji**            | **Ödevler / Projeler**             | **Durum**     |
+| ------ | -------------------------------- | ---------------------------------- | ------------- |
+| 1. Ay  | Git, Temel C#, OOP               | Hesap Makinesi & Not Takip Sistemi | ✅ Tamamlandı |
+| 2. Ay  | SQL, Kod Kalitesi                | Görev Yönetim Sistemi              | ✅ Tamamlandı |
+| 3. Ay  | Web API, .Net Core MVC, EF Core  | Kütüphane Yönetim Sistemi          | ✅ Tamamlandı |
+| 4. Ay  | Mikroservisler ve Test           | E-Ticaret API Sistemi              | ✅ Tamamlandı |
+| 5. Ay  | HTML, CSS, Bootstrap, Tailwind   | Kişisel Portföy Sayfası            | ✅ Tamamlandı |
+| 6. Ay  | JavaScript ve DOM                | Hava Durumu Uygulaması             | ✅ Tamamlandı |
+| 7. Ay  | React (Components, State, Hooks) | To-Do List veya Blog Sitesi        | ✅ Tamamlandı |
+| 8. Ay  | Redux ve Deployment              | Fullstack Uygulama                 | ✅ Tamamlandı |
 
 ---
 
@@ -36,7 +36,6 @@ Merhaba! 👋 Ben **Melih Can DEMİR**, bu repo [Patika.dev](https://www.patika.
 
 - Bu repoda her hafta tamamladığım ödev ve projeler ayrı klasörler altında yer alacak.
 - Patika+ dersleri içerir.
-- Uygulamar .net 8 sürümü kullanmakta.
 
 ---
 
